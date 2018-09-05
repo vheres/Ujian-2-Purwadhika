@@ -1,0 +1,227 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Baron",
+      "password": "12345",
+      "email": "B@ron.com"
+    },
+    {
+      "id": 2,
+      "username": "Samson",
+      "email": "S@amson.com",
+      "password": "12345"
+    }
+  ],
+  "movies": [
+    {
+      "title": "Avenger's Infinity War",
+      "link": "https://www.bleedingcool.com/wp-content/uploads/2017/02/Avengers-Infinity-War4865.jpg",
+      "desc": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe."
+    },
+    {
+      "title": "Hacksaw Ridge",
+      "link": "http://jonvilma.com/images/mel-gibson-hacksaw-ridge.jpg",
+      "desc": "World War II American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people, and becomes the first man in American history to receive the Medal of Honor without firing a shot."
+    },
+    {
+      "title": "Justice League",
+      "link": "http://hdqwalls.com/wallpapers/2017-justice-league-4k-4k.jpg",
+      "desc": "Fueled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne enlists the help of his newfound ally, Diana Prince, to face an even greater enemy."
+    }
+  ],
+  "schedule": [
+    {
+      "id": 1,
+      "studio": "Studio 1",
+      "movie": "Avengers",
+      "time": "10:00",
+      "price": 25000,
+      "seats": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": 2,
+      "studio": "Studio 1",
+      "movie": "Avengers",
+      "time": "14:00",
+      "price": 35000,
+      "seats": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": 3,
+      "studio": "Studio 2",
+      "movie": "Hacksaw Ridge",
+      "time": "10:00",
+      "price": 25000,
+      "seats": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": 4,
+      "studio": "Studio 2",
+      "movie": "Hacksaw Ridge",
+      "time": "14:00",
+      "price": 35000,
+      "seats": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": 5,
+      "studio": "Studio 3",
+      "movie": "Justice League",
+      "time": "10:00",
+      "price": 25000,
+      "seats": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": 6,
+      "studio": "Studio 3",
+      "movie": "Justice League",
+      "time": "14:00",
+      "price": 35000,
+      "seats": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ],
+  "transaction": [
+    {
+      "user": "Baron",
+      "studio": "Studio 1",
+      "time": "10:00",
+      "price": 75000,
+      "seats": 3,
+      "id": 1
+    },
+    {
+      "user": "Baron",
+      "studio": "Studio 1",
+      "time": "14:00",
+      "price": 35000,
+      "seats": 1,
+      "id": 2
+    }
+  ]
+}
